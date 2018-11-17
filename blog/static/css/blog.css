@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+*{
+  font-family: 'Niramit', sans-serif;
+}
+.body {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+/**seccion titulo**/
+.wrapper {
+  padding: 1.25rem;
+}
+.title-box {
+  width: 100%;
+  background-color: #8B0000;
+  color: #fff;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.title--principal {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+/** section articulos **/
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-box {
+  width: 85%;
+  display: block;
+  margin: 1rem auto;
+  border: 1px solid #e8e8e8;
+}
+
+.publish{
+  font-size: 0.7rem;
+  color: #7d7d7d;
+}
+
+.title--post{
+  font-size: 1.5rem;
+  color: #8B0000;
+  text-transform: capitalize;
+}
