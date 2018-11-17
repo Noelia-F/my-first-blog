@@ -17,6 +17,8 @@
   width: 100%;
   background-color: #8B0000;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .links {
@@ -33,6 +35,11 @@
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
+  width: 95%;
+}
+
+.more {
+  font-size: 3rem;
 }
 /** section articulos **/
 .post-list {
@@ -56,4 +63,24 @@
   font-size: 1.5rem;
   color: #8B0000;
   text-transform: capitalize;
+}
+
+/**formulario**/
+.post-form{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-default {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #228B22;
+  color: #fff;
+  border-radius: 2px;
 }
